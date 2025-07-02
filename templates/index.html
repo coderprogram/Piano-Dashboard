@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Practice App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Stats Gear Icon -->
+    <div class="stats-gear" id="stats-gear">
+        <button class="gear-btn" onclick="openStatsModal()">⚙️</button>
+    </div>
+
+    <!-- Stats Modal -->
+    <div id="stats-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📊 Practice Statistics</h2>
+                <span class="close" onclick="closeStatsModal()">&times;</span>
+            </div>
+
+            <div class="modal-body">
+                <!-- Current Session Progress -->
+                <div class="session-progress">
+                    <h3>Current Session</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="session-progress-fill"></div>
+                        <span id="session-progress-text">0/10</span>
+                    </div>
+                </div>
+
+                <!-- Stats Overview -->
+                <div class="stats-overview">
+                    <div class="stat-card">
+                        <span class="stat-number" id="modal-accuracy">-</span>
+                        <span class="stat-label">Overall Accuracy</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="modal-treble">-</span>
+                        <span class="stat-label">Treble Clef</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="modal-bass">-</span>
+                        <span class="stat-label">Bass Clef</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="modal-response-time">-</span>
+                        <span class="stat-label">Avg Response (ms)</span>
+                    </div>
+                </div>
+
+                <!-- Interactive Charts -->
+                <div class="charts-section">
+                    <h3>Progress Over Time</h3>
+                    <div class="chart-container">
+                        <canvas id="progress-chart"></canvas>
+                    </div>
+                    <button class="btn btn-secondary" onclick="exportChart()">📄 Export Chart as PDF</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div>
+                    <h1>🎹 Piano Practice App</h1>
+                    <p>Practice key recognition and sight reading</p>
+                </div>
+                <button id="dark-mode-toggle" class="dark-mode-btn">🌙</button>
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <div class="practice-cards">
+                <div class="card">
+                    <h2>🎹 Key Recognition</h2>
+                    <p>Practice identifying musical keys on staff notation</p>
+                    <p class="session-info">Sessions: 10 keys each</p>
+                    <a href="/key-practice" class="btn btn-primary">Start Practice</a>
+                </div>
+
+                <div class="card">
+                    <h2>📖 Sight Reading</h2>
+                    <p>Generate custom sight reading exercises and export PDFs</p>
+                    <a href="/sight-reading" class="btn btn-primary">Generate Exercise</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="stats-section">
+            <h3>Your Progress</h3>
+            <div id="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" id="total-sessions">-</span>
+                    <span class="stat-label">Total Questions</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="accuracy">-</span>
+                    <span class="stat-label">Overall Accuracy</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="treble-accuracy">-</span>
+                    <span class="stat-label">Treble Clef Accuracy</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="bass-accuracy">-</span>
+                    <span class="stat-label">Bass Clef Accuracy</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="exercises-generated">-</span>
+                    <span class="stat-label">Exercises Generated</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-activity">
+            <h3>Recent Activity</h3>
+            <div id="recent-sessions">
+                <p>Loading...</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+        // Load stats and initialize dark mode on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            initDarkMode();
+            loadStats();
+        });
+    </script>
+</body>
+
+</html>

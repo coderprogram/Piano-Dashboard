@@ -1,0 +1,75 @@
+2025-06-30T17:29:59.769724,key_practice,1,,"Key: E, Answer: E"
+2025-06-30T17:30:05.576784,key_practice,1,,"Key: G, Answer: G"
+2025-06-30T17:30:09.378157,key_practice,0,,"Key: B, Answer: C"
+2025-06-30T17:30:18.050806,key_practice,1,,"Key: B, Answer: B"
+2025-06-30T17:30:22.177677,key_practice,0,,"Key: E, Answer: C"
+2025-06-30T17:30:43.563927,sight_reading_generated,1,beginner,Generated melody in C
+2025-06-30T17:30:49.964873,sight_reading_generated,1,advanced,Generated melody in D
+2025-06-30T17:30:50.573915,sight_reading_generated,1,advanced,Generated melody in C#
+2025-06-30T17:30:53.864915,sight_reading_generated,1,advanced,Generated melody in D
+2025-06-30T17:30:54.381451,sight_reading_generated,1,advanced,Generated melody in F
+2025-06-30T17:30:54.556483,sight_reading_generated,1,advanced,Generated melody in Bb
+2025-06-30T17:30:54.719459,sight_reading_generated,1,advanced,Generated melody in F#
+2025-06-30T17:30:55.168062,sight_reading_generated,1,advanced,Generated melody in G
+2025-06-30T17:30:55.546036,sight_reading_generated,1,advanced,Generated melody in C
+2025-06-30T17:30:55.821810,sight_reading_generated,1,advanced,Generated melody in Bb
+2025-06-30T17:30:56.278508,sight_reading_generated,1,advanced,Generated melody in B
+2025-06-30T17:30:56.485897,sight_reading_generated,1,advanced,Generated melody in Eb
+2025-06-30T17:30:56.709368,sight_reading_generated,1,advanced,Generated melody in D
+2025-06-30T17:30:56.919204,sight_reading_generated,1,advanced,Generated melody in E
+2025-06-30T17:30:57.100437,sight_reading_generated,1,advanced,Generated melody in Eb
+2025-06-30T17:30:57.354120,sight_reading_generated,1,advanced,Generated melody in Bb
+2025-06-30T17:30:57.633988,sight_reading_generated,1,advanced,Generated melody in B
+2025-06-30T17:30:57.813378,sight_reading_generated,1,advanced,Generated melody in C
+2025-06-30T17:30:57.988770,sight_reading_generated,1,advanced,Generated melody in C
+2025-06-30T17:30:58.181566,sight_reading_generated,1,advanced,Generated melody in Eb
+2025-06-30T17:30:58.364887,sight_reading_generated,1,advanced,Generated melody in Eb
+2025-06-30T17:30:58.549640,sight_reading_generated,1,advanced,Generated melody in E
+2025-06-30T17:30:58.741764,sight_reading_generated,1,advanced,Generated melody in G
+2025-06-30T17:30:58.917585,sight_reading_generated,1,advanced,Generated melody in B
+2025-06-30T17:30:59.070319,sight_reading_generated,1,advanced,Generated melody in D
+2025-06-30T17:31:12.557120,key_practice,1,,"Key: Db, Answer: D"
+2025-06-30T17:31:19.358359,key_practice,1,,"Key: G#, Answer: G"
+2025-06-30T17:35:07.873332,key_practice,1,,"Key: B, Answer: B"
+2025-06-30T17:35:13.994160,key_practice,1,,"Key: Db, Answer: D"
+2025-06-30T17:35:26.162017,key_practice,1,,"Key: A#, Answer: A"
+2025-06-30T17:35:34.881519,key_practice,1,,"Key: G, Answer: G"
+2025-06-30T17:35:42.322212,key_practice,1,,"Key: C, Answer: C"
+2025-06-30T17:39:02.769044,sight_reading_generated,1,beginner,Generated melody in Am
+2025-06-30T17:39:33.221809,key_practice,1,,"Key: F#, Answer: F"
+2025-06-30T17:39:35.964593,key_practice,1,,"Key: A, Answer: A"
+2025-06-30T17:39:48.238731,key_practice,0,,"Key: Ab, Answer: G"
+2025-06-30T17:39:57.413843,key_practice,1,,"Key: D, Answer: D"
+2025-06-30T22:33:38.708412,key_practice,0,,"Key: C, Answer: A"
+2025-06-30T22:33:45.063448,key_practice,1,,"Key: B, Answer: B"
+2025-06-30T22:33:57.206697,key_practice,1,,"Key: Ab, Answer: A"
+2025-06-30T22:34:04.011090,key_practice,0,,"Key: B, Answer: G"
+2025-06-30T22:34:13.579846,key_practice,1,,"Key: E, Answer: E"
+2025-06-30T23:45:46.297751,session_start,0,,,,,,,b9ffee33,
+2025-06-30T23:45:46.297424,key_practice,1,beginner,bass,B,B,,,b9ffee33,Octave: 2
+2025-06-30T23:45:53.919654,key_practice,1,beginner,bass,A#,A,,,b9ffee33,Octave: 3
+2025-06-30T23:45:57.039390,key_practice,1,beginner,treble,E,E,,,b9ffee33,Octave: 5
+2025-06-30T23:53:11.083426,key_practice,1,beginner,treble,G#,G,,,b9ffee33,Octave: 5
+2025-07-01T00:13:14.758607,key_practice,0,beginner,bass,F,D,,,b9ffee33,Octave: 3
+2025-07-01T00:13:15.376879,key_practice,0,beginner,bass,F,D,,,b9ffee33,Octave: 3
+2025-07-01T00:13:21.653914,key_practice,1,beginner,treble,Db,D,,,b9ffee33,Octave: 5
+2025-07-01T00:13:34.620159,key_practice,1,beginner,treble,D#,D,,,b9ffee33,Octave: 4
+2025-07-01T00:13:39.055041,key_practice,1,beginner,treble,B,B,,,b9ffee33,Octave: 4
+2025-07-01T00:13:51.087261,key_practice,0,beginner,bass,Gb,E,,,b9ffee33,Octave: 2
+2025-07-01T00:13:57.459376,key_practice,1,beginner,bass,F,F,,,b9ffee33,Octave: 2
+2025-07-01T00:14:36.372731,key_practice,1,beginner,bass,F#,F,,,b9ffee33,Octave: 3
+2025-07-01T00:14:41.153814,key_practice,1,beginner,treble,Cb,C,,,b9ffee33,Octave: 4
+2025-07-01T18:36:57.841052,key_practice,0,beginner,bass,D,C,,,b9ffee33,8035,Octave: 2
+2025-07-01T18:37:11.151782,key_practice,1,beginner,treble,B,B,,,b9ffee33,11288,Octave: 5
+2025-07-01T18:42:37.220617,key_practice,1,beginner,treble,F,F,,,b9ffee33,5971,Octave: 5
+2025-07-01T18:42:43.600560,key_practice,1,beginner,treble,D#,D,,,b9ffee33,4372,Octave: 5
+2025-07-01T18:42:48.488314,key_practice,1,beginner,bass,B,B,,,b9ffee33,2879,Octave: 3
+2025-07-01T18:42:57.848664,key_practice,1,beginner,bass,C,C,,,b9ffee33,7338,Octave: 2
+2025-07-01T18:43:03.201727,key_practice,1,beginner,treble,B,B,,,b9ffee33,3335,Octave: 4
+2025-07-01T18:43:15.808850,key_practice,1,beginner,treble,Gb,G,,,b9ffee33,10600,Octave: 4
+2025-07-01T18:43:18.186183,key_practice,0,beginner,treble,G,C,,,b9ffee33,371,Octave: 4
+2025-07-01T18:43:24.415764,key_practice,1,beginner,treble,E,E,,,b9ffee33,4218,Octave: 5
+2025-07-01T18:43:38.791252,key_practice,1,beginner,bass,F#,F,,,b9ffee33,12368,Octave: 2
+2025-07-01T18:43:43.254814,key_practice,1,beginner,bass,Gb,G,,,b9ffee33,2454,Octave: 3
+2025-07-01T18:43:48.995206,key_practice,1,beginner,bass,B,B,,,b9ffee33,3729,Octave: 2
+2025-07-01T18:44:00.659209,key_practice,1,beginner,bass,Fb,F,,,b9ffee33,9654,Octave: 3

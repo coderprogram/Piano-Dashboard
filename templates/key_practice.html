@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Recognition Practice - Piano Practice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/vexflow@5.0.0/build/cjs/vexflow.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div>
+                    <h1>🎹 Key Recognition Practice</h1>
+                    <a href="/" class="btn btn-secondary">← Back to Home</a>
+                </div>
+                <button id="dark-mode-toggle" class="dark-mode-btn">🌙</button>
+            </div>
+        </header>
+
+        <div class="practice-area">
+            <div class="instructions">
+                <p>Look at the note on the staff and press the corresponding letter key (C, D, E, F, G, A, B)</p>
+            </div>
+
+            <div class="staff-container">
+                <div id="staff-display"></div>
+            </div>
+
+            <div class="answer-section">
+                <div class="key-buttons">
+                    <button class="key-btn" data-key="C">C</button>
+                    <button class="key-btn" data-key="D">D</button>
+                    <button class="key-btn" data-key="E">E</button>
+                    <button class="key-btn" data-key="F">F</button>
+                    <button class="key-btn" data-key="G">G</button>
+                    <button class="key-btn" data-key="A">A</button>
+                    <button class="key-btn" data-key="B">B</button>
+                </div>
+
+                <div class="controls">
+                    <button id="new-key-btn" class="btn btn-primary">New Key</button>
+                </div>
+            </div>
+
+            <div id="feedback" class="feedback hidden">
+                <div id="feedback-message"></div>
+                <div id="feedback-details"></div>
+            </div>
+
+            <div class="score-display">
+                <span>Score: <span id="current-score">0</span> / <span id="total-attempts">0</span></span>
+                <span class="accuracy">(<span id="accuracy-percent">0</span>% accuracy)</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+        // Initialize key practice when page loads
+        document.addEventListener('DOMContentLoaded', function () {
+            initDarkMode();
+            initKeyPractice();
+            generateNewKey();
+        });
+    </script>
+</body>
+
+</html>
