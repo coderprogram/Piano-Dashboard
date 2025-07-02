@@ -1,4 +1,4 @@
-# 🎹 Piano Practice App
+# Piano-Dashboard# 🎹 Piano Practice App
 
 A Flask web application for practicing piano key recognition and sight reading with progress tracking and interactive charts.
 
